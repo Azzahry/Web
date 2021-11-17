@@ -1,0 +1,184 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Ubiquitous.ttf);
+}
+
+@font-face {
+    font-family: myFontNd;
+    src: url(Heavitas.ttf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: myFont;
+}
+
+.wrapper {
+    width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+.wrapper2 {
+    width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+.Info {
+    width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: myFontNd;
+    color: #483434;
+}
+
+.menu {
+    float: right;
+}
+
+.navUp {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 65px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #F9CF93;
+    z-index: 1;
+    border: 1px solid white;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    color: #483434;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    clip-path: circle(38% at 50% 38%);
+    position: sticky;
+}
+
+.information p {
+    position: relative;
+    font-weight: bold;
+    text-align: left;
+    font-size: 25px;
+    left: 25px;
+    padding-top: 60px;
+}
+
+.information h2 {
+    position: relative;
+    text-align: left;
+    left: 25px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.Sosmed {
+    float: right;
+    position: sticky;
+    text-decoration: none;
+    padding-top: 0px;
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+.Sosmed li a {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.Sosmed li a:hover {
+    text-decoration: underline;
+}
+/*
+.navBott {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 65px;
+    position: fixed;
+    position: -webkit-sticky;
+    bottom: 0;
+    background: #F9CF93;
+    z-index: 1;
+    border: 1px solid white;
+}
+
+.navBott p {
+    float: left;
+}
+
+.navBott ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navBott ul li {
+    float: left;
+}
+
+.navBott ul li a {
+    color: #483434;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+.navBott ul img {
+    width: 50px;
+    height: auto;
+    float: left;
+    left: 20px;
+    top: 17px;
+    position: sticky;
+}
+*/

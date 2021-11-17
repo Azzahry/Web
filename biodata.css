@@ -1,0 +1,76 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Ubiquitous.ttf);
+}
+
+@font-face {
+    font-family: myFontNd;
+    src: url(Heavitas.ttf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: myfont;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: myFontNd;
+    color: #483434;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 65px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #F9CF93;
+    z-index: 1;
+    border: 1px solid white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #483434;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
