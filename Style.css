@@ -7,18 +7,28 @@
 
 @font-face {
     font-family: myFont;
-    src: url(Ubiquitous.ttf);
+    src: url(assets/font/Ubiquitous.ttf);
 }
 
 @font-face {
     font-family: myFontNd;
-    src: url(Heavitas.ttf);
+    src: url(assets/font/Heavitas.ttf);
+}
+
+@font-face {
+    font-family: myFontRd;
+    src: url(assets/font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppinsBold;
+    src: url(assets/font/Poppins-Bold.ttf);
 }
 
 body {
     margin: 0px;
     padding: 0px;
-    font-family: myFont;
+    font-family: poppinsBold;
 }
 
 .wrapper {
@@ -107,6 +117,7 @@ img {
     font-size: 25px;
     left: 25px;
     padding-top: 60px;
+    font-family: myFontRd;
 }
 
 .information h2 {
@@ -114,71 +125,21 @@ img {
     text-align: left;
     left: 25px;
     font-size: 14px;
-    font-family: sans-serif;
+    font-family: myFontRd;
 }
 
 .Sosmed {
     float: right;
     position: sticky;
     text-decoration: none;
-    padding-top: 0px;
-    list-style-type: none;
+    padding-top: 100px;
+    padding-left: 500px;
+    list-style-type:none;
     overflow: hidden;
-
+    font-family: poppinsBold;
+    color: black;
 }
 
-.Sosmed li a {
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    padding-right: 30px;
-}
-
-.Sosmed li a:hover {
+.Sosmed:hover{
     text-decoration: underline;
 }
-/*
-.navBott {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    line-height: 65px;
-    position: fixed;
-    position: -webkit-sticky;
-    bottom: 0;
-    background: #F9CF93;
-    z-index: 1;
-    border: 1px solid white;
-}
-
-.navBott p {
-    float: left;
-}
-
-.navBott ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.navBott ul li {
-    float: left;
-}
-
-.navBott ul li a {
-    color: #483434;
-    font-weight: bold;
-    padding: 0px 20px 0px 20px;
-    text-decoration: none;
-}
-
-.navBott ul img {
-    width: 50px;
-    height: auto;
-    float: left;
-    left: 20px;
-    top: 17px;
-    position: sticky;
-}
-*/
